@@ -11,11 +11,11 @@ The notion of experiment precision quantifies the variance of user ratings in a 
 * `ExperimentPrecisionSOS.ipynb`: The jupyter notebook implements the experiment precision measure as well as the experiment precision comparion method based on the SOS parameter $a$. The “SOS hypothesis” [[3]](https://doi.org/10.1109/QoMEX.2011.6065690) is the underlying model where SOS stands for Standard Deviation of Opinion Scores.
 
 ### References: 
-* [1] L. Janowski, B. Cmiel, K. Rusek, J. Nawała, and Z. Li, “Generalized score distribution,” arXiv, 9 2019. [Online]. Available: http://arxiv.org/abs/1909.04369
-* [2] Z. Li, C. G. Bampis, L. Janowski, and I. Katsavounidis, “A Simple Model for Subject Behavior in Subjective Experiments,” in Human Vision and Electronic Imaging (HVEI) 2020, 2020. [Online]. Available: http://arxiv.org/abs/2004.02067
+* [1] J. Nawała, L. Janowski, B. Ćmiel, K. Rusek and P. Pérez, "Generalized Score Distribution: A Two-Parameter Discrete Distribution Accurately Describing Responses From Quality of Experience Subjective Experiments," in IEEE Transactions on Multimedia, 2022, Available: https://ieeexplore.ieee.org/document/9888234
+* [2] Zhi Li, Christos G. Bampis, Lucjan Janowski, Ioannis Katsavounidis, "A Simple Model for Subject Behavior in Subjective Experiments"  in Proc. IS&T Int’l. Symp. on Electronic Imaging: Human Vision and Electronic Imaging,  2020,  pp 131-1 - 131-14,  https://library.imaging.org/ei/articles/32/11/art00010
 * [3] T. Hoßfeld, R. Schatz, and S. Egger, “Sos: The mos is not enough!” 2011 3rd International Workshop on Quality of Multimedia Experience, QoMEX 2011, pp. 131–136, 2011. Available: https://doi.org/10.1109/QoMEX.2011.6065690
 
 ## Copyright Notice
 The scripts are published under the license: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The following paper is to be cited in the bibliography whenever the tool is used.
 
-> Nawała, J., Hoßfeld, T., Janowski, L., & Seufert, M. (2022). Systematic Analysis of Experiment Precision Measures and Methods for Experiments Comparison. arXiv preprint arXiv:2204.07131. https://doi.org/10.48550/arXiv.2204.07131
+> J. Nawała, T. Hoßfeld, L. Janowski, M. Seufert, "Experiment Precision Measures and Methods for Experiment Comparisons" 2023 15th International Workshop on Quality of Multimedia Experience, QoMEX 2023, pp. , 2023. Available:
