@@ -12,7 +12,8 @@ The notion of experiment precision quantifies the variance of user ratings in a 
 * `main.py` cript with functions calculating subjective experiment precision. We have two types of functions: 
   * `precision_?` where `?` can be `l`, `a`, or `g`. This function calculates selected measure of precision, `l` base on Li2020 model, `a` based on SOS, and `g` based on GSD model. Function calculates precision measure using scores written in a numpy matrix. Rows are stimuli and columns are subjects.
   * `compar_by_?` where `?` can be `l`, `a`, or `g`. This function p-value and t-test statistics comparing two subjective experiments. This time the assumption is that the data structure is long in pandas dataframe with columns describing experiment, score, stimuli, and subject. 
-  Examples how to use those function can be found in the file.
+  
+Examples how to use those function can be found in the file.
   
 
 ### References: 
