@@ -17,6 +17,8 @@ import jax.numpy as jnp
 import jax.tree_util as tree
 from jax.scipy.special import betaln
 
+
+
 ################### start of $\ell$ metric #############################
 def one_or_nan(x):
     """
@@ -360,6 +362,7 @@ class _OptState(NamedTuple):
     count: int
 
 
+@jax.jit
 def fit_grad_bogdan(data: jnp.ndarray, max_iterations=100) -> GSDParams:
     def ll(theta: GSDParams) -> float:
         logits = v_gsd_log_prob(theta.psi, theta.rho, jnp.arange(1, 6))
