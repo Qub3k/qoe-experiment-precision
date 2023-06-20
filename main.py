@@ -190,9 +190,9 @@ def compar_by_l(data_frame, experiment_id, score, pvs, subject):
             'p_value': -1
         }
     else:
-        df_pivot = df[df[experiment_id] == experiments[0]].pivot(index=pvs, columns=subject, values=score)
+        df_pivot = data_frame[data_frame[experiment_id] == experiments[0]].pivot(index=pvs, columns=subject, values=score)
         matrix_1 = df_pivot.values
-        df_pivot = df[df[experiment_id] == experiments[1]].pivot(index=pvs, columns=subject, values=score)
+        df_pivot = data_frame[data_frame[experiment_id] == experiments[1]].pivot(index=pvs, columns=subject, values=score)
         matrix_2 = df_pivot.values
         prec_l_1 = precision_l(matrix_1)
         prec_l_2 = precision_l(matrix_2)
@@ -262,9 +262,9 @@ def compar_by_a(data_frame, experiment_id, score, pvs, subject):
             'p_value': -1
         }
     else:
-        df_pivot = df[df[experiment_id] == experiments[0]].pivot(index=pvs, columns=subject, values=score)
+        df_pivot = data_frame[data_frame[experiment_id] == experiments[0]].pivot(index=pvs, columns=subject, values=score)
         matrix_1 = df_pivot.values
-        df_pivot = df[df[experiment_id] == experiments[1]].pivot(index=pvs, columns=subject, values=score)
+        df_pivot = data_frame[data_frame[experiment_id] == experiments[1]].pivot(index=pvs, columns=subject, values=score)
         matrix_2 = df_pivot.values
         prec_l_1 = precision_a(matrix_1)
         prec_l_2 = precision_a(matrix_2)
@@ -471,9 +471,9 @@ def compar_by_g(data_frame, experiment_id, score, pvs, subject):
             'p_value': -1
         }
     else:
-        df_pivot = df[df[experiment_id] == experiments[0]].pivot(index=pvs, columns=subject, values=score)
+        df_pivot = data_frame[data_frame[experiment_id] == experiments[0]].pivot(index=pvs, columns=subject, values=score)
         matrix_1 = df_pivot.values
-        df_pivot = df[df[experiment_id] == experiments[1]].pivot(index=pvs, columns=subject, values=score)
+        df_pivot = data_frame[data_frame[experiment_id] == experiments[1]].pivot(index=pvs, columns=subject, values=score)
         matrix_2 = df_pivot.values
         prec_1 = precision_g(matrix_1)
         prec_2 = precision_g(matrix_2)
